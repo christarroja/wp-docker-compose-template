@@ -4,10 +4,12 @@
 
 Docker (Desktop) must be installed & running in order for the .yml to work
 
-After that, type this in your terminal:
+Download this .yml into your project folder. After that, open terminal and cd into the folder.
 
-`docker-compose up -d`
+Type: `docker-compose up -d`
 
-It should display `[+] Running 5/5` with no errors. 
+It should download required images (mariadb, wordpress), and create new Docker volumes/containers automatically. 
+
+After progress is done, it should display `[+] Running 5/5` with no errors. 
 
 Check the Docker app for logs, etc.
